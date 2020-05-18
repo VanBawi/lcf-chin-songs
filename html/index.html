@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/971c98b1ed.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="../image/cross.png" />
+  <link rel="stylesheet" href="../css/style.css">
+  <title>LCF Hlabu</title>
+</head>
+
+<body class="dark-theme">
+  <!--search bar and dot three menu section start here -->
+  <div class="">
+    <nav class="nav navbar searchIcon">
+      <div class="logo">
+        <i class="fas fa-music fa-2x"></i>
+      </div>
+      <div class="input-group searchBar">
+        <input type="text" class="form-control" placeholder="Search..." id="searchbar">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" onclick="search_song()">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class="dropdown dotMenu">
+        <ul class="dot-three-menu" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          <i class="fas fa-ellipsis-v fa-lg"></i>
+        </ul>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Font Size</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--search bar and dot three menu section end here -->
+
+  <div class="container main">
+    <!-- All songs go here -->
+    <div class="all-songs">
+      <div class="song-model">
+        <div class="song_title">1. BAWIPA A THA
+          <p class="key"> Key: G</p>
+          <p class="verse">
+            <!--Verse 1 goes here -->
+            Bawipa a tha Bawipa a lian,<br>
+            A thawm liannak mangbangza;<br>
+            Amah hnenah a beutu pawl,<br>
+            Ama’n him te’n in kilveng.<br>
+          </p>
+          <p class="chorus">
+            <!--Chorus goes here -->
+            Ka lo thang`hat Bawipa ka thang`hat,<br>
+            Na thawm liannak mangbangza;<br>
+            Thuk in a sang lamdang duhdawtnak,<br>
+            Ka beu lungpi Bawi Jesuh.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 2 goes here -->
+            Lungthin kekkuai beidong mi pawl,<br>
+            Nuhmei farah zonzai pawl;<br>
+            Leivut lakin in khaisang ih,<br>
+            Jesuh dawtnak lawng a si.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 3 goes here -->
+            Thiang Thlarau in mit in vangter,<br>
+            Dawtnak kutin in hruai ih;<br>
+            In kawh tikah ka lo sawn ding,<br>
+            Ka thuthup ka lo sim ding.<br>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="song-model">
+        <div class="song_title">2. Test
+          <p class="key"> Key: B</p>
+          <p class="verse">
+            <!--Verse 1 goes here -->
+            Sersiamtu Bawipa ka hrang ah hin a `ha,<br>
+            Mi hmuahhmuah hrang khal ah a `ha ee;<br>
+            Thleidannak um lo kan dinhmun tawk cio in,<br>
+            In kilkhawi Bawipa cu a `ha a `ha.<br>
+          </p>
+          <p class="chorus">
+            <!--Chorus goes here -->
+            Mi phunkip in cung Pathian hi,<br>
+            Sangah hlir uh sunloihnak Ama'n nei seh;<br>
+            Kan taksa `ulmi ni eng le zilthli thiang,<br>
+            Man lo in in petu Bawipa a si.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 2 goes here -->
+            Sersiammi lakah a kutsuak minung hi,<br>
+            Huham nei danglam cuang in in siam;<br>
+            Nitin te'n in kil tuu bangin in khaal `heu,<br>
+            Bawipa cu kan hrangah a `ha a `ha.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 3 goes here -->
+            Cangvai thei `ong thei thil tinkim hmu thei le,<br>
+            Theihtheinak in petu khal a si;<br>
+            Amah sunloih in kan aw neih hmuah suah in,<br>
+            Sangsin ah cawi uh si Bawipa a `ha.<br>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="song-model">
+        <div class="song_title">3. Test1
+          <p class="key"> Key: A</p>
+          <p class="verse">
+            <!--Verse 1 goes here -->
+            Sersiamtu Bawipa ka hrang ah hin a `ha,<br>
+            Mi hmuahhmuah hrang khal ah a `ha ee;<br>
+            Thleidannak um lo kan dinhmun tawk cio in,<br>
+            In kilkhawi Bawipa cu a `ha a `ha.<br>
+          </p>
+          <p class="chorus">
+            <!--Chorus goes here -->
+            Mi phunkip in cung Pathian hi,<br>
+            Sangah hlir uh sunloihnak Ama'n nei seh;<br>
+            Kan taksa `ulmi ni eng le zilthli thiang,<br>
+            Man lo in in petu Bawipa a si.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 2 goes here -->
+            Sersiammi lakah a kutsuak minung hi,<br>
+            Huham nei danglam cuang in in siam;<br>
+            Nitin te'n in kil tuu bangin in khaal `heu,<br>
+            Bawipa cu kan hrangah a `ha a `ha.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 3 goes here -->
+            Cangvai thei `ong thei thil tinkim hmu thei le,<br>
+            Theihtheinak in petu khal a si;<br>
+            Amah sunloih in kan aw neih hmuah suah in,<br>
+            Sangsin ah cawi uh si Bawipa a `ha.<br>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="song-model">
+        <div class="song_title">4. Test2
+          <p class="key"> Key: F</p>
+          <p class="verse">
+            <!--Verse 1 goes here -->
+            Sersiamtu Bawipa ka hrang ah hin a `ha,<br>
+            Mi hmuahhmuah hrang khal ah a `ha ee;<br>
+            Thleidannak um lo kan dinhmun tawk cio in,<br>
+            In kilkhawi Bawipa cu a `ha a `ha.<br>
+          </p>
+          <p class="chorus">
+            <!--Chorus goes here -->
+            Mi phunkip in cung Pathian hi,<br>
+            Sangah hlir uh sunloihnak Ama'n nei seh;<br>
+            Kan taksa `ulmi ni eng le zilthli thiang,<br>
+            Man lo in in petu Bawipa a si.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 2 goes here -->
+            Sersiammi lakah a kutsuak minung hi,<br>
+            Huham nei danglam cuang in in siam;<br>
+            Nitin te'n in kil tuu bangin in khaal `heu,<br>
+            Bawipa cu kan hrangah a `ha a `ha.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 3 goes here -->
+            Cangvai thei `ong thei thil tinkim hmu thei le,<br>
+            Theihtheinak in petu khal a si;<br>
+            Amah sunloih in kan aw neih hmuah suah in,<br>
+            Sangsin ah cawi uh si Bawipa a `ha.<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="song-model">
+        <div class="song_title">5. Test2
+          <p class="key"> Key: F</p>
+          <p class="verse">
+            <!--Verse 1 goes here -->
+            Sersiamtu Bawipa ka hrang ah hin a `ha,<br>
+            Mi hmuahhmuah hrang khal ah a `ha ee;<br>
+            Thleidannak um lo kan dinhmun tawk cio in,<br>
+            In kilkhawi Bawipa cu a `ha a `ha.<br>
+          </p>
+          <p class="chorus">
+            <!--Chorus goes here -->
+            Mi phunkip in cung Pathian hi,<br>
+            Sangah hlir uh sunloihnak Ama'n nei seh;<br>
+            Kan taksa `ulmi ni eng le zilthli thiang,<br>
+            Man lo in in petu Bawipa a si.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 2 goes here -->
+            Sersiammi lakah a kutsuak minung hi,<br>
+            Huham nei danglam cuang in in siam;<br>
+            Nitin te'n in kil tuu bangin in khaal `heu,<br>
+            Bawipa cu kan hrangah a `ha a `ha.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 3 goes here -->
+            Cangvai thei `ong thei thil tinkim hmu thei le,<br>
+            Theihtheinak in petu khal a si;<br>
+            Amah sunloih in kan aw neih hmuah suah in,<br>
+            Sangsin ah cawi uh si Bawipa a `ha.<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="song-model">
+        <div class="song_title">6. Test2
+          <p class="key"> Key: F</p>
+          <p class="verse">
+            <!--Verse 1 goes here -->
+            Sersiamtu Bawipa ka hrang ah hin a `ha,<br>
+            Mi hmuahhmuah hrang khal ah a `ha ee;<br>
+            Thleidannak um lo kan dinhmun tawk cio in,<br>
+            In kilkhawi Bawipa cu a `ha a `ha.<br>
+          </p>
+          <p class="chorus">
+            <!--Chorus goes here -->
+            Mi phunkip in cung Pathian hi,<br>
+            Sangah hlir uh sunloihnak Ama'n nei seh;<br>
+            Kan taksa `ulmi ni eng le zilthli thiang,<br>
+            Man lo in in petu Bawipa a si.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 2 goes here -->
+            Sersiammi lakah a kutsuak minung hi,<br>
+            Huham nei danglam cuang in in siam;<br>
+            Nitin te'n in kil tuu bangin in khaal `heu,<br>
+            Bawipa cu kan hrangah a `ha a `ha.<br>
+          </p>
+          <p class="verse">
+            <!--Verse 3 goes here -->
+            Cangvai thei `ong thei thil tinkim hmu thei le,<br>
+            Theihtheinak in petu khal a si;<br>
+            Amah sunloih in kan aw neih hmuah suah in,<br>
+            Sangsin ah cawi uh si Bawipa a `ha.<br>
+          </p>
+        </div>
+      </div>
+
+
+      <!-- all songs div end here -->
+    </div>
+    <!-- container div end here -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- linking javscript -->
+  <script src="../js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+
+
+
+
+</html>

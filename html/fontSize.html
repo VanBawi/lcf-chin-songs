@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Font Size</title>
+</head>
+
+<body class="container">
+  <label for="sel1">size of font:</label>
+  <select class="form-control" id="sel1" onchange="changeSize(this);">
+    <option>12</option>
+    <option>4</option>
+    <option>6</option>
+    <option>8</option>
+    <option>10</option>
+    <option>14</option>
+    <option>16</option>
+    <option>20</option>
+    <option>24</option>
+    <option>28</option>
+    <option>32</option>
+    <option>36</option>
+    <option>40</option>
+    <option>44</option>
+    <option>48</option>
+    <option>52</option>
+    <option>56</option>
+    <option>58</option>
+  </select>
+  <div id="demo">
+    DEMO
+  </div>
+
+
+  <script>
+    function changeSize(n) {
+      var s = document.getElementById('demo');
+      s.style.fontSize = n.value + 'px'
+    }
+  </script>
+
+</body>
+
+</html>

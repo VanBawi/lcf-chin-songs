@@ -1,0 +1,53 @@
+.main {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.searchIcon {
+  display: grid;
+  grid-gap: 10px;
+  justify-items: stretch;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+.logo {
+  /* align-self: start; */
+
+  justify-self: end;
+  margin-top: -1.5em;
+  margin-left: -1em;
+
+}
+
+.searchBar {}
+
+.dotMenu {
+  /* border: 1px solid #d3d3d3;
+  grid-auto-rows: 20px; */
+}
+
+.fas {
+  padding-top: 1em;
+}
+
+
+.song-model {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: auto;
+  padding-left: 5%;
+  padding-bottom: 30px;
+}
+
+.chorus {
+  padding-left: 5%;
+}
+
+.song_title::first-line {
+  text-indent: 2.5em;
+}
+
+/* .dark-theme {
+  background-color: #303030;
+  color: #ffffff;
+} */
